@@ -19,7 +19,7 @@ export default function AddTopic() {
     }
 
     try {
-      const res = await fetch("https://todosnext.onrender.com/api/topics", {
+      const res = await fetch("http://0.0.0.0:80/api/topics", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

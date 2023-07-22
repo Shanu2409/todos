@@ -10,7 +10,7 @@ export default function RemoveBtn({ id } : any) {
     const confirmed = confirm("Are you sure?");
 
     if (confirmed) {
-      const res = await fetch(`https://todosnext.onrender.com/api/topics?id=${id}`, {
+      const res = await fetch(`http://0.0.0.0:80/api/topics?id=${id}`, {
         method: "DELETE",
       });
 
