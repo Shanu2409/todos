@@ -19,7 +19,7 @@ export default function AddTopic() {
     }
 
     try {
-      const res = await fetch("todos-g0ik9zo28-shanu2409.vercel.app/api/topics", {
+      const res = await fetch("https://todosnext.onrender.com/api/topics", {
         method: "POST",
         headers: {
           "Content-type": "application/json",

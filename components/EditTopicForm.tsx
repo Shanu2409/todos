@@ -14,7 +14,7 @@ export default function EditTopicForm({ id, title, description } : any) {
     e.preventDefault();
 
     try {
-      const res = await fetch(`todos-g0ik9zo28-shanu2409.vercel.app/api/topics/${id}`, {
+      const res = await fetch(`https://todosnext.onrender.com/api/topics/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",
